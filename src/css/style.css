@@ -1,0 +1,52 @@
+body {
+    font-size: 14px;
+    line-height: 1.42857143;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.form {}
+
+.popover_block {
+    border: 1px solid black;
+    width: 245px;
+    text-align: center;
+    position: relative;
+}
+
+.popover_block::before,
+.popover_block::after {
+    content: "";
+    position: absolute;
+    left: 110px;
+    bottom: -20px;
+    border: 10px solid transparent;
+    border-top: 10px solid black;
+}
+
+.popover_block::after {
+    border-top: 10px solid white;
+    bottom: -19px;
+}
+
+.popover_title {
+    border-bottom: 1px solid;
+    margin: 0;
+    text-align: initial;
+    padding: 3px 8px;
+    background-color: lightgray;
+}
+
+.popover_text {
+    margin: 10px 25px;
+}
+
+.btn {
+    width: 170px;
+    border-radius: 3px;
+    margin: 10px;
+    padding: 10px;
+    background-color: #da3b4a;
+    color: white;
+}
