@@ -8,9 +8,9 @@ describe('INN/OGRN form', () => {
   const baseUrl = 'https://kategaw.github.io/AHJ_forms_1';
   beforeAll(async () => {
     browser = await puppetteer.launch({
-      headless: false, // show gui
-      slowMo: 100,
-      devtools: true, // show devTools
+      //   headless: false, // show gui
+      //   slowMo: 100,
+      //   devtools: true, // show devTools
     });
     page = await browser.newPage();
   });
