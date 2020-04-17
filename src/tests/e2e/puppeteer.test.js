@@ -5,7 +5,7 @@ jest.setTimeout(30000); // default puppeteer timeout
 describe('INN/OGRN form', () => {
   let browser = null;
   let page = null;
-  const baseUrl = 'http://localhost:9000/';
+  const baseUrl = 'https://kategaw.github.io/AHJ_forms_1';
   beforeAll(async () => {
     browser = await puppetteer.launch({
       headless: false, // show gui
